@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>teori bulan megastruktur</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['inter', 'sans-serif'] },
+                    colors: {
+                        dark: {
+                            bg: '#0f172a',       /* slate 900 */
+                            card: '#1e293b',     /* slate 800 */
+                            border: '#334155'    /* slate 700 */
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #0f172a; /* solid dark color - no moving gradients */
+            color: #e2e8f0;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* memastikan gambar tidak pernah keluar dari container */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* hide scrollbar for horizontal swipe areas */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="pb-24 md:pb-10">
+
+    <header class="fixed top-0 left-0 w-full bg-dark-bg/90 backdrop-blur-md border-b border-dark-border z-50 h-16 flex items-center">
+        <div class="container mx-auto px-5 flex justify-between items-center">
+            <span class="font-bold text-white tracking-tight"></span>
+            <span class="text-xs bg-indigo-600 px-2 py-1 rounded text-white"></span>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-5 pt-24 max-w-2xl">
+        
+        <section class="mb-6">
+            <h1 class="text-3xl md:text-4xl font-bold text-white leading-tight mb-3">
+                bulan sebagai megastruktur?
+            </h1>
+            <p class="text-slate-400 text-sm leading-relaxed">
+                sebuah hipotesis sci-fi: apakah satelit alami kita sebenarnya adalah objek buatan kuno?
+            </p>
+        </section>
+
+        <figure class="w-full aspect-video rounded-xl overflow-hidden bg-slate-800 border border-dark-border mb-6 relative">
+            <img 
+                src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=800&auto=format&fit=crop" 
+                alt="ilustrasi bulan" 
+                class="w-full h-full object-cover"
+            >
+            <figcaption class="absolute bottom-2 left-3 text-[10px] text-white/60 bg-black/40 px-2 py-0.5 rounded">
+                img: unsplash
+            </figcaption>
+        </figure>
+
+        <div class="flex items-center gap-3 mb-8 border-b border-dark-border pb-6">
+            <div class="w-12 h-12 rounded-full bg-slate-700 overflow-hidden shrink-0 border-2 border-indigo-500">
+                <img src="foto.jpg" alt="avatar penulis" class="w-full h-full object-cover">
+            </div>
+            <div>
+                <p class="text-base font-semibold text-white">Fahrul Hamzidan Pulungan</p>
+                <p class="text-sm text-slate-400">Penulis & Pemikir Bebas</p>
+            </div>
+        </div>
+
+        <div class="bg-orange-500/10 border border-orange-500/20 rounded-lg p-4 mb-8">
+            <h3 class="text-orange-400 font-bold text-sm mb-1 flex items-center gap-2">
+                <i data-lucide="alert-circle" class="w-4 h-4"></i> Disclaimer
+            </h3>
+            <p class="text-xs text-orange-200/80 leading-relaxed">
+                artikel ini bersifat spekulatif untuk melatih berpikir kritis. bukan fakta ilmiah mutlak dan tidak bermaksud menyinggung keyakinan apapun.
+            </p>
+        </div>
+
+        <article class="space-y-6 text-slate-300 leading-7 text-[16px]">
+            
+            <div>
+                <h2 class="text-xl font-bold text-white mb-2">apa inti teorinya?</h2>
+                <p>
+                    teori ini berpendapat bahwa bulan <strong>bukan objek alami</strong>, melainkan struktur raksasa yang dibuat atau dimodifikasi oleh peradaban cerdas di masa lalu. beberapa poin kuncinya:
+                </p>
+            </div>
+
+            <div class="grid gap-3">
+                <div class="bg-dark-card border border-dark-border p-4 rounded-lg">
+                    <h3 class="font-semibold text-white text-sm mb-1">1. orbit stabil</h3>
+                    <p class="text-sm text-slate-400">posisi bulan dianggap "terlalu sempurna" untuk menstabilkan rotasi bumi.</p>
+                </div>
+                <div class="bg-dark-card border border-dark-border p-4 rounded-lg">
+                    <h3 class="font-semibold text-white text-sm mb-1">2. misteri kawah</h3>
+                    <p class="text-sm text-slate-400">kedalaman kawah di bulan relatif dangkal, seolah ada lapisan logam keras di bawah permukaannya.</p>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-xl font-bold text-white mb-2">kata sains resmi</h2>
+                <p>
+                    ilmuwan mainstream memegang teori <em>giant impact</em>. bahwa bulan terbentuk dari tabrakan bumi purba dengan planet seukuran mars. belum ada bukti fisik yang mendukung teori megastruktur.
+                </p>
+            </div>
+
+        </article>
+
+        <div class="mt-10 mb-8">
+            <a href="https://teori-bulan-megastruktur.vercel.app/" target="_blank" class="block w-full py-4 bg-indigo-600 hover:bg-indigo-500 text-white text-center rounded-lg font-semibold transition active:scale-95">
+                lihat visualisasi 3d
+            </a>
+            <p class="text-center text-xs text-slate-500 mt-2">membuka halaman eksternal</p>
+        </div>
+
+        <section class="border-t border-dark-border pt-6 mb-6">
+            <h3 class="text-sm font-bold text-white mb-3">galeri referensi</h3>
+            <div class="flex gap-3 overflow-x-auto no-scrollbar pb-2">
+                <div class="shrink-0 w-48 rounded-lg overflow-hidden border border-dark-border relative">
+                    <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=400" class="w-full h-28 object-cover">
+                    <span class="absolute bottom-1 left-2 text-[9px] text-white bg-black/50 px-1 rounded">permukaan</span>
+                </div>
+                <div class="shrink-0 w-48 rounded-lg overflow-hidden border border-dark-border relative">
+                    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=400" class="w-full h-28 object-cover">
+                    <span class="absolute bottom-1 left-2 text-[9px] text-white bg-black/50 px-1 rounded">teknologi</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <nav class="fixed bottom-0 left-0 w-full bg-dark-card border-t border-dark-border md:hidden z-50">
+        <div class="grid grid-cols-3 h-16 items-center">
+            <a href="#" class="flex flex-col items-center gap-1 text-indigo-400">
+                <i data-lucide="book-open" class="w-5 h-5"></i>
+                <span class="text-[10px]">baca</span>
+            </a>
+            <a href="#sumber" class="flex flex-col items-center gap-1 text-slate-500 active:text-white">
+                <i data-lucide="info" class="w-5 h-5"></i>
+                <span class="text-[10px]">info</span>
+            </a>
+            <a href="https://teori-bulan-megastruktur.vercel.app/" class="flex flex-col items-center gap-1 text-slate-500 active:text-white">
+                <i data-lucide="box" class="w-5 h-5"></i>
+                <span class="text-[10px]">3d</span>
+            </a>
+        </div>
+    </nav>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
